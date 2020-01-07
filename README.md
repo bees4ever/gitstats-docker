@@ -12,10 +12,10 @@ This is a fork of https://sourceforge.net/p/gitstats/wiki/Home/ and https://sour
 
 ## Deploy
 
-To deploy a current version to `Docker`simply run these lines:
+To deploy a current version to `Docker` simply run these lines:
 
 1. `docker build -t gitstats-docker .`
 1. `docker tag gitstats-docker bees4ever/gitstats-docker:latest`
 1. `docker push bees4ever/gitstats-docker:latest`
 
-Then we see under https://hub.docker.com/repository/docker/bees4ever/docker-git-ssh a new version is published
+Then we see under https://hub.docker.com/repository/docker/bees4ever/gitstats-docker a new version is published
